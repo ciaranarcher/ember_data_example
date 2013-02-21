@@ -23,6 +23,7 @@ group :test, :development do
   gem 'minitest-rails'
   gem 'konacha'
   gem 'poltergeist'
+  gem 'pry-rails'
 end
 
 group :test do
