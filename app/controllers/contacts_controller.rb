@@ -52,7 +52,6 @@ private
     phone_numbers_param = contact_params.extract!(:phone_numbers)
     phone_numbers_param = phone_numbers_param[:phone_numbers]
     phone_numbers_param ||= []
-    ContactsManager.new
 
     # Because updates to the contact and its associations should be atomic,
     # wrap them in a transaction.
